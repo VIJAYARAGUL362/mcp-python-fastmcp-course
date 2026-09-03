@@ -32,7 +32,7 @@ def search_web_feed(query:str,feed_url:str,max_results:int=5)->list[Dict[str,Any
     return results
 
 @mcp.tool(
-    name="get youtube feed",
+    name="get_youtube_feed",
     description="get the relevant feed based on your query"
 )
 def get_youtube_feed(query:str,channel_id:str,max_results:int=5)->list[Dict[str,Any]]:
